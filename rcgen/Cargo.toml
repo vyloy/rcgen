@@ -53,3 +53,6 @@ botan = { version = "0.10", features = ["vendored"] }
 rand = { workspace = true }
 rsa = "0.9"
 ring = { workspace = true }
+
+[patch.crates-io]
+x509-parser = { git = "https://githubfast.com/vyloy/x509-parser.git", branch = "master" }
